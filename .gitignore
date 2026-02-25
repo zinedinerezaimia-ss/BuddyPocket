@@ -1,0 +1,30 @@
+# Xcode
+*.xcodeproj/
+xcuserdata/
+*.xcworkspace/
+DerivedData/
+build/
+
+# SPM
+.build/
+.swiftpm/
+
+# CocoaPods/Bundler
+Pods/
+vendor/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Keys
+*.p8
+*.mobileprovision
+*.cer
+GoogleService-Info.plist
+
+# OS
+.DS_Store
+*.swp
