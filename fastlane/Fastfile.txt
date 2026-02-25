@@ -20,11 +20,11 @@ platform :ios do
 
     build_app(
       scheme: "BuddyPocket",
-      export_method: "app-store",
+      export_method: "app-store-connect",
       sdk: "iphoneos",
       clean: true,
       export_options: {
-        method: "app-store",
+        method: "app-store-connect",
         teamID: "J875R59LND",
         signingStyle: "automatic"
       }
